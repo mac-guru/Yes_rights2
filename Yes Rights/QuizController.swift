@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 
 struct Question {
@@ -18,6 +19,8 @@ struct Question {
 
 class QuizController: UIViewController {
     
+    
+    @IBOutlet var fbIcon: UIButton!
     
     @IBOutlet var QuesionLabel: UILabel!
     
@@ -36,7 +39,7 @@ class QuizController: UIViewController {
         
         
         scoreLevel.text = "0";
-        
+        fbIcon.hidden = true
         
         
         
@@ -82,8 +85,9 @@ class QuizController: UIViewController {
     
     func userDidUpdate()
     {
-        let title = "Done!!"
-        let message = "Question Finish"
+        let title = "Congratulations"
+        let message = "Your Score \("") Share on Facebook"
+        fbIcon.hidden = false
         
         UIAlertView(title: title, message: message, delegate: nil, cancelButtonTitle: "OK").show()
     }
@@ -95,6 +99,7 @@ class QuizController: UIViewController {
         let alertViewController = SCLAlertView().showError("Ooops!", subTitle: subTitle)
         
         alertViewController.setTitle(title)
+        pickQuestion()
     }
     
     
@@ -168,10 +173,22 @@ class QuizController: UIViewController {
             pickQuestion()
             increaseScore();
         }
-        else{               wrongAns("Wrong Ans!", subTitle: "Hey Try again")
+        else{
+            wrongAns("Wrong Ans!", subTitle: "Hey Try again")
         }
     }
     
+    @IBAction func fbShare(sender: AnyObject) {
+        let vc = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+        vc.setInitialText("OMG i scored \(scoreLevel.text) point in the #Yes rights  on iOS")
+        
+        
+        presentViewController(vc, animated: true, completion: nil)
+        
+        vc.addURL(NSURL(string: "http://www.photolib.noaa.gov/nssl"))
+        
+        print("hi")
+    }
     
     
     
