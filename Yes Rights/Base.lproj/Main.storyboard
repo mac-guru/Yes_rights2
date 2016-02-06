@@ -280,7 +280,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nNT-QJ-uF0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1692" y="173"/>
+            <point key="canvasLocation" x="-1188" y="-675"/>
         </scene>
         <!--Quiz Controller-->
         <scene sceneID="2ic-Hr-EZ5">
@@ -294,76 +294,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzd-q4-R3S">
-                                <rect key="frame" x="20" y="75" width="560" height="65"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzd-q4-R3S">
+                                <rect key="frame" x="20" y="75" width="560" height="117"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="65" id="eOx-Ng-VeA"/>
+                                    <constraint firstAttribute="height" constant="117" id="eOx-Ng-VeA"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1n-KS-GlO">
-                                <rect key="frame" x="20" y="176" width="560" height="56"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.3170561502" green="0.61937411649999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="teM-uP-XGl"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.94001661709999995" green="0.98036510939999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="button1:" destination="q3I-wv-T9w" eventType="touchUpInside" id="Re0-qj-B0W"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trn-uk-ytk">
-                                <rect key="frame" x="20" y="240" width="560" height="56"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.3170561502" green="0.61937411649999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="9cR-Fj-EQr"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.94001661709999995" green="0.98036510939999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="button2:" destination="q3I-wv-T9w" eventType="touchUpInside" id="6NM-41-6lV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7K-r3-7Id">
-                                <rect key="frame" x="20" y="304" width="560" height="56"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.3170561502" green="0.61937411649999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="ihN-Gi-Y1N"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.94001661709999995" green="0.98036510939999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="button3:" destination="q3I-wv-T9w" eventType="touchUpInside" id="bCa-l5-2q3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhw-YA-d4b">
-                                <rect key="frame" x="20" y="368" width="560" height="56"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.3170561502" green="0.61937411649999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="9gg-dS-cWU"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.94001661709999995" green="0.98036510939999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="button4:" destination="q3I-wv-T9w" eventType="touchUpInside" id="uNq-vu-vC5"/>
-                                </connections>
-                            </button>
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Uo-mW-UdO">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
                                 <animations/>
@@ -387,7 +327,7 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3s-Vc-e1E">
-                                <rect key="frame" x="20" y="465" width="560" height="50"/>
+                                <rect key="frame" x="20" y="496" width="560" height="50"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="cCr-8d-Scr"/>
@@ -396,6 +336,66 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1n-KS-GlO">
+                                <rect key="frame" x="20" y="233" width="560" height="56"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.11372549019607843" green="0.6470588235294118" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="teM-uP-XGl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.94001661709999995" green="0.98036510939999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1:" destination="q3I-wv-T9w" eventType="touchUpInside" id="Re0-qj-B0W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trn-uk-ytk">
+                                <rect key="frame" x="20" y="297" width="560" height="56"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.11372549019607843" green="0.6470588235294118" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="9cR-Fj-EQr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.94001661709999995" green="0.98036510939999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button2:" destination="q3I-wv-T9w" eventType="touchUpInside" id="6NM-41-6lV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7K-r3-7Id">
+                                <rect key="frame" x="20" y="361" width="560" height="56"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.11372549019607843" green="0.6470588235294118" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="ihN-Gi-Y1N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.94001661709999995" green="0.98036510939999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button3:" destination="q3I-wv-T9w" eventType="touchUpInside" id="bCa-l5-2q3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhw-YA-d4b">
+                                <rect key="frame" x="20" y="425" width="560" height="56"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.11372549019607843" green="0.6470588235294118" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="9gg-dS-cWU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.94001661709999995" green="0.98036510939999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button4:" destination="q3I-wv-T9w" eventType="touchUpInside" id="uNq-vu-vC5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -405,7 +405,7 @@
                             <constraint firstItem="bzd-q4-R3S" firstAttribute="leading" secondItem="BHb-Sg-xuk" secondAttribute="leadingMargin" id="AmS-ms-1bZ"/>
                             <constraint firstItem="l1n-KS-GlO" firstAttribute="trailing" secondItem="BHb-Sg-xuk" secondAttribute="trailingMargin" id="EcH-iW-k2V"/>
                             <constraint firstItem="Trn-uk-ytk" firstAttribute="top" secondItem="l1n-KS-GlO" secondAttribute="bottom" constant="8" id="GSh-fT-W21"/>
-                            <constraint firstItem="l1n-KS-GlO" firstAttribute="top" secondItem="bzd-q4-R3S" secondAttribute="bottom" constant="36" id="NRH-ss-30F"/>
+                            <constraint firstItem="l1n-KS-GlO" firstAttribute="top" secondItem="bzd-q4-R3S" secondAttribute="bottom" constant="41" id="NRH-ss-30F"/>
                             <constraint firstItem="Trn-uk-ytk" firstAttribute="leading" secondItem="BHb-Sg-xuk" secondAttribute="leadingMargin" id="OLo-UX-baf"/>
                             <constraint firstItem="Hhw-YA-d4b" firstAttribute="trailing" secondItem="BHb-Sg-xuk" secondAttribute="trailingMargin" id="QXd-kC-nKo"/>
                             <constraint firstItem="Trn-uk-ytk" firstAttribute="trailing" secondItem="BHb-Sg-xuk" secondAttribute="trailingMargin" id="XJy-88-Uda"/>
@@ -416,7 +416,7 @@
                             <constraint firstItem="3Uo-mW-UdO" firstAttribute="top" secondItem="BHb-Sg-xuk" secondAttribute="top" id="dXx-xe-SEP"/>
                             <constraint firstItem="bzd-q4-R3S" firstAttribute="trailing" secondItem="BHb-Sg-xuk" secondAttribute="trailingMargin" id="hFQ-va-rJh"/>
                             <constraint firstItem="W3s-Vc-e1E" firstAttribute="trailing" secondItem="BHb-Sg-xuk" secondAttribute="trailingMargin" id="hLD-if-X5X"/>
-                            <constraint firstItem="W3s-Vc-e1E" firstAttribute="top" secondItem="Hhw-YA-d4b" secondAttribute="bottom" constant="41" id="mPq-KO-1Qk"/>
+                            <constraint firstItem="W3s-Vc-e1E" firstAttribute="top" secondItem="Hhw-YA-d4b" secondAttribute="bottom" constant="15" id="mPq-KO-1Qk"/>
                             <constraint firstItem="W3s-Vc-e1E" firstAttribute="leading" secondItem="BHb-Sg-xuk" secondAttribute="leadingMargin" id="mk5-TG-SYe"/>
                             <constraint firstItem="b7K-r3-7Id" firstAttribute="trailing" secondItem="BHb-Sg-xuk" secondAttribute="trailingMargin" id="myf-jz-nge"/>
                             <constraint firstItem="b7K-r3-7Id" firstAttribute="leading" secondItem="BHb-Sg-xuk" secondAttribute="leadingMargin" id="p5g-Nh-aQy"/>
@@ -434,7 +434,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P8z-yh-TOe" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2182" y="-517"/>
+            <point key="canvasLocation" x="-2034" y="-662"/>
         </scene>
     </scenes>
     <resources>
