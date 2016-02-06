@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F015F1CB1C64E8BC009B07B0 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015F1CA1C64E8BC009B07B0 /* SCLAlertView.swift */; };
-		F078929B1C65CBC800EF5B5E /* human.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F078929A1C65CBC800EF5B5E /* human.pdf */; };
 		F078929D1C65CC1100EF5B5E /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F078929C1C65CC1100EF5B5E /* DetailController.swift */; };
 		F0DABB7F1C64CA84004506E5 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DABB7E1C64CA84004506E5 /* QuizController.swift */; };
 		F0E161821C64944A00437455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E161811C64944A00437455 /* AppDelegate.swift */; };
@@ -18,6 +17,7 @@
 		F0E1618C1C64944A00437455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E1618A1C64944A00437455 /* LaunchScreen.storyboard */; };
 		F0E161971C64944A00437455 /* Yes_RightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E161961C64944A00437455 /* Yes_RightsTests.swift */; };
 		F0E161A21C64944A00437455 /* Yes_RightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E161A11C64944A00437455 /* Yes_RightsUITests.swift */; };
+		F0FB4F6C1C662B7A0036CB93 /* human.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F0FB4F6B1C662B7A0036CB93 /* human.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		F015F1CA1C64E8BC009B07B0 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
-		F078929A1C65CBC800EF5B5E /* human.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = human.pdf; sourceTree = "<group>"; };
 		F078929C1C65CC1100EF5B5E /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		F0DABB7E1C64CA84004506E5 /* QuizController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
 		F0E1617E1C64944900437455 /* Yes Rights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yes Rights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +54,7 @@
 		F0E1619D1C64944A00437455 /* Yes RightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yes RightsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E161A11C64944A00437455 /* Yes_RightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yes_RightsUITests.swift; sourceTree = "<group>"; };
 		F0E161A31C64944A00437455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0FB4F6B1C662B7A0036CB93 /* human.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = human.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		F0E161801C64944A00437455 /* Yes Rights */ = {
 			isa = PBXGroup;
 			children = (
-				F078929A1C65CBC800EF5B5E /* human.pdf */,
+				F0FB4F6B1C662B7A0036CB93 /* human.pdf */,
 				F015F1C91C64E7DC009B07B0 /* UIAlertLibrary */,
 				F0E161811C64944A00437455 /* AppDelegate.swift */,
 				F078929C1C65CC1100EF5B5E /* DetailController.swift */,
@@ -253,7 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0E1618C1C64944A00437455 /* LaunchScreen.storyboard in Resources */,
-				F078929B1C65CBC800EF5B5E /* human.pdf in Resources */,
+				F0FB4F6C1C662B7A0036CB93 /* human.pdf in Resources */,
 				F0E161891C64944A00437455 /* Assets.xcassets in Resources */,
 				F0E161871C64944A00437455 /* Main.storyboard in Resources */,
 			);
