@@ -39,7 +39,7 @@ class QuizController: UIViewController {
         
         
         scoreLevel.text = "0";
-        fbIcon.hidden = true
+      
         
         
         
@@ -87,7 +87,6 @@ class QuizController: UIViewController {
     {
         let title = "Congratulations"
         let message = "Your Score \("") Share on Facebook"
-        fbIcon.hidden = false
         
         UIAlertView(title: title, message: message, delegate: nil, cancelButtonTitle: "OK").show()
     }
@@ -177,18 +176,18 @@ class QuizController: UIViewController {
             wrongAns("Wrong Ans!", subTitle: "Hey Try again")
         }
     }
-    
-    @IBAction func fbShare(sender: AnyObject) {
-        let vc = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
-        vc.setInitialText("OMG i scored \(scoreLevel.text) point in the #Yes rights  on iOS")
-        
-        
-        presentViewController(vc, animated: true, completion: nil)
-        
-        vc.addURL(NSURL(string: "http://www.photolib.noaa.gov/nssl"))
-        
-        print("hi")
-    }
+//    
+//    @IBAction func fbShare(sender: AnyObject) {
+//        let vc = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+//        vc.setInitialText("OMG i scored \(scoreLevel.text) point in the #Yes rights  on iOS")
+//        
+//        
+//        presentViewController(vc, animated: true, completion: nil)
+//        
+//        vc.addURL(NSURL(string: "http://www.photolib.noaa.gov/nssl"))
+//        
+//        print("hi")
+//    }
     
     
     

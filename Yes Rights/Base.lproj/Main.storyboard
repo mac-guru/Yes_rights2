@@ -460,31 +460,17 @@
                                     <action selector="button4:" destination="q3I-wv-T9w" eventType="touchUpInside" id="uNq-vu-vC5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qad-MM-beu">
-                                <rect key="frame" x="271" y="547.5" width="58" height="42.5"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="58" id="3YD-RB-bWn"/>
-                                    <constraint firstAttribute="height" constant="42.5" id="fIi-La-Jcw"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="1454778024_Facebook"/>
-                                <connections>
-                                    <action selector="fbShare:" destination="q3I-wv-T9w" eventType="touchUpInside" id="Ccg-4e-5ch"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bzd-q4-R3S" firstAttribute="top" secondItem="3Uo-mW-UdO" secondAttribute="bottom" constant="10" id="31m-ZM-cTa"/>
                             <constraint firstItem="l1n-KS-GlO" firstAttribute="leading" secondItem="BHb-Sg-xuk" secondAttribute="leadingMargin" id="3Bt-vu-aG7"/>
-                            <constraint firstItem="QN8-aP-bQ6" firstAttribute="top" secondItem="Qad-MM-beu" secondAttribute="bottom" constant="10" id="9fx-It-INU"/>
                             <constraint firstItem="bzd-q4-R3S" firstAttribute="leading" secondItem="BHb-Sg-xuk" secondAttribute="leadingMargin" id="AmS-ms-1bZ"/>
                             <constraint firstItem="l1n-KS-GlO" firstAttribute="trailing" secondItem="BHb-Sg-xuk" secondAttribute="trailingMargin" id="EcH-iW-k2V"/>
                             <constraint firstItem="Trn-uk-ytk" firstAttribute="top" secondItem="l1n-KS-GlO" secondAttribute="bottom" constant="8" id="GSh-fT-W21"/>
                             <constraint firstItem="l1n-KS-GlO" firstAttribute="top" secondItem="bzd-q4-R3S" secondAttribute="bottom" constant="41" id="NRH-ss-30F"/>
                             <constraint firstItem="Trn-uk-ytk" firstAttribute="leading" secondItem="BHb-Sg-xuk" secondAttribute="leadingMargin" id="OLo-UX-baf"/>
-                            <constraint firstItem="Qad-MM-beu" firstAttribute="centerX" secondItem="BHb-Sg-xuk" secondAttribute="centerX" id="PGb-EW-3YA"/>
                             <constraint firstItem="Hhw-YA-d4b" firstAttribute="trailing" secondItem="BHb-Sg-xuk" secondAttribute="trailingMargin" id="QXd-kC-nKo"/>
                             <constraint firstItem="Trn-uk-ytk" firstAttribute="trailing" secondItem="BHb-Sg-xuk" secondAttribute="trailingMargin" id="XJy-88-Uda"/>
                             <constraint firstItem="Hhw-YA-d4b" firstAttribute="top" secondItem="b7K-r3-7Id" secondAttribute="bottom" constant="8" id="bgw-Ag-mZs"/>
@@ -503,7 +489,6 @@
                     </view>
                     <connections>
                         <outlet property="QuesionLabel" destination="bzd-q4-R3S" id="1FL-Rz-9eu"/>
-                        <outlet property="fbIcon" destination="Qad-MM-beu" id="sO2-2m-zBg"/>
                         <outlet property="scoreLevel" destination="W3s-Vc-e1E" id="MEW-Q2-3uo"/>
                         <outletCollection property="Buttons" destination="l1n-KS-GlO" collectionClass="NSMutableArray" id="h4i-qX-RDR"/>
                         <outletCollection property="Buttons" destination="Trn-uk-ytk" collectionClass="NSMutableArray" id="hvT-hh-dfa"/>
@@ -517,7 +502,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1454778024_Facebook" width="128" height="128"/>
         <image name="HRAapathon" width="186" height="90"/>
         <image name="infonew" width="102" height="102"/>
         <image name="message" width="102" height="102"/>
